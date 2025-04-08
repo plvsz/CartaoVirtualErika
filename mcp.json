@@ -1,0 +1,50 @@
+{
+    "nome": "ALEX EMERICK ZENE",
+    "cargo": "Gestor Imobiliário",
+    "empresa": "Zene Imóveis",
+    "contatos": {
+        "whatsapp": "https://wa.me/5531995950123?text=Olá! Gostaria de agendar uma visita.",
+        "instagram": "https://www.instagram.com/zeneimoveis/",
+        "youtube": "https://www.youtube.com/@zeneimoveis",
+        "site": "https://www.zeneimoveis.com.br",
+        "localizacao": "https://maps.app.goo.gl/XhaavUbDPLPiRXzv7"
+    },
+    "servicos": [
+        "Casas",
+        "Apartamentos",
+        "Terrenos",
+        "Galpões",
+        "Terrenos"
+    ],
+    "cores": {
+        "fundo": "rgb(0, 0, 0)",
+        "card": "rgb(254,254,254)",
+        "nome": "#00023D",
+        "cargo": "rgb(8, 222, 8)",
+        "servicos": {
+            "titulo": "orange",
+            "texto": "#ff9500"
+        },
+        "botao_cta": "orange",
+        "botao_cta_hover": "#ff9500"
+    },
+    "fontes": {
+        "principal": "Ethnocentric Bold",
+        "secundaria": "Ethnocentric",
+        "fallback": "Helvetica Neue, Helvetica, Arial, sans-serif"
+    }
+
+
+}
+
+{
+    "mcpServers": {
+      "TalkToFigma": {
+        "command": "bunx",
+        "args": [
+          "cursor-talk-to-figma-mcp",
+          "--server=vps.sonnylab.com"
+        ]
+      }
+    }
+}

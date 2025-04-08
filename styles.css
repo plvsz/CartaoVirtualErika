@@ -1,0 +1,453 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.Região {
+
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 900;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: rgb(254,254,254);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+    border-radius: 0;
+    position: relative;
+}
+
+.header-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.cargo {
+    color: rgb(8, 222, 8);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+    letter-spacing: 0px;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.name {
+    color: #00023D;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 10px 0;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #00023D;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 40px 0;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.contact-buttons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.contact-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.contact-buttons .contact-button.location {
+    background: #FF0000;
+}
+
+.contact-buttons .contact-button.location i {
+    font-size: 24px;
+    color: white;
+}
+
+.contact-buttons .contact-button.location:hover {
+    background: #CC0000;
+    transform: scale(1.1);
+    color: white;
+}
+
+.button-label {
+    font-size: 11px;
+    color: #00023D;
+    margin-top: 3px;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.social-links .contact-button.whatsapp {
+    background: #25D366;
+}
+.social-links .contact-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.social-links .contact-button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.social-links .button-label {
+    font-size: 11px;
+    color: #004d4d;
+    margin-top: 3px;
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.services-title {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+}
+
+.services-list {
+    color: #ff9500;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.services-list li {
+    margin: 12px 0;
+    position: relative;
+    padding-left: 0;
+}
+
+.services-list li::before {
+    display: none;
+}
+
+.cta-section {
+    background: orange;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0;
+    margin: 0;
+}
+
+.cta-section:hover {
+    background: #ff9500;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 60px;
+}
+
+.company-logo {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    background: rgb(254,254,254);
+    padding: 8px;
+    box-shadow: none;
+}
+
+.contact-buttons .contact-button.whatsapp {
+    background: #25D366;
+}
+
+.contact-buttons .contact-button.whatsapp i {
+    font-size: 24px;
+}
+
+.contact-buttons .contact-button.whatsapp:hover {
+    background: #128C7E;
+    transform: scale(1.1);
+    color: white;
+}
+
+.contact-buttons .contact-button.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.contact-buttons .contact-button.instagram i {
+    font-size: 24px;
+    color: white;
+}
+
+.contact-buttons .contact-button.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    transform: scale(1.1);
+    color: white;
+}
+
+.contact-buttons .contact-button.website {
+    background: #00023D;
+}
+
+.contact-buttons .contact-button.website i {
+    font-size: 24px;
+    color: white;
+}
+
+.contact-buttons .contact-button.website:hover {
+    background: orange;
+    transform: scale(1.1);
+    color: orange;
+}
+
+.contact-buttons .contact-button.phone {
+    background: #25D366;
+}
+
+.contact-buttons .contact-button.phone i {
+    font-size: 24px;
+    color: white;
+}
+
+.contact-buttons .contact-button.phone:hover {
+    background: #128C7E;
+    transform: scale(1.1);
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .header-image {
+        height: 180px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin: 10px 0 30px 0;
+    }
+
+    .contact-buttons {
+        gap: 10px;
+    }
+
+    .contact-button {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .button-label {
+        font-size: 10px;
+    }
+
+    .logo-container {
+        margin: 0 20px;
+    }
+
+    .company-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .services-title {
+        font-size: 18px;
+    }
+
+    .services-list li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-image {
+        height: 160px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .contact-button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .company-logo {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.box-redes-sociais {
+    display: flex;
+    background: transparent;
+    width: 305px;
+    float: none;
+    margin: auto;
+}
+
+.box-redes-sociais li {
+    list-style: none;
+    margin: auto;
+}
+
+.box-redes-sociais li a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 22px;
+    margin: 0 5px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #eaeaea;
+    z-index: 1;
+}
+
+.box-redes-sociais li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .3s;
+    z-index: 3;
+}
+
+.box-redes-sociais li a:hover .icon {
+    color: #fff;
+    scale: 1.2;
+}
+
+.box-redes-sociais li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .6s;
+    z-index: 2;
+}
+
+.box-redes-sociais li a:hover:before {
+    top: 0;
+}
+
+.box-redes-sociais li.facebook a:before {
+    background: #3b5999;
+}
+
+.box-redes-sociais li.instagram a:before {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.box-redes-sociais li.twitter a:before {
+    background: #55acee;
+}
+
+.box-redes-sociais li.pinterest a:before {
+    background: #dc2933;
+}
+
+.box-redes-sociais li.youtube a:before {
+    background: #ff1d15;
+} 
