@@ -62,7 +62,7 @@ body {
     font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .creci {
-    color: rgb(255, 0, 0);
+    color: red;
     font-size: 25px;
     font-weight: 700;
     margin: 10px 0;
