@@ -61,6 +61,14 @@ body {
     letter-spacing: 0px;
     font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.creci {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+    letter-spacing: 0px;
+    font-family: "Ethnocentric Bold", "Ethnocentric", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .name {
     color: #00023D;
